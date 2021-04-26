@@ -13,6 +13,11 @@ export interface Envelope {
   status: EnvelopeStatus;
 }
 
+export interface IUserCred {
+  email: string;
+  password: string;
+}
+
 export interface IEnvelop {
   data: () => Envelope;
 }
